@@ -5,7 +5,7 @@ defmodule OpenTelemetryCodec do
   """
   use Protox,
     paths: [
-      "C:/Users/John/projects/opentelemetry-codec/opentelemetry-proto"
+      "../opentelemetry-codec/opentelemetry-proto"
     ],
     files: [
       "opentelemetry-proto/opentelemetry/proto/trace/v1/trace.proto",

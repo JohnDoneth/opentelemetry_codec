@@ -3,18 +3,6 @@ defmodule OpenTelemetryCodec do
   OpenTelemetryCodec allows for parsing OpenTelemetry trace, metrics and log
   data from JSON or Protobuf encoded data.
   """
-  use Protox,
-    paths: [
-      "../opentelemetry-codec/opentelemetry-proto"
-    ],
-    files: [
-      "opentelemetry-proto/opentelemetry/proto/trace/v1/trace.proto",
-      "opentelemetry-proto/opentelemetry/proto/metrics/v1/metrics.proto",
-      "opentelemetry-proto/opentelemetry/proto/logs/v1/logs.proto",
-      "opentelemetry-proto/opentelemetry/proto/common/v1/common.proto",
-      "opentelemetry-proto/opentelemetry/proto/resource/v1/resource.proto"
-    ]
-
   # --------------
   # -- Decoding --
   # --------------
